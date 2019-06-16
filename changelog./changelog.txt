@@ -1,20 +1,12 @@
-Changelogs For Derpfest Build OTA Update 04.06.2019 for Sanders:
+Changelogs For Derpfest Build OTA Update 14.06.2019 for Rolex:
 
 
----Device side
-- Changed Fingerprint Props from Walleye(Pixel2) to Crosshatch(Pixel3XL)
-- Added Cool New Vector Icons for FP Gestures in Moto Shit
-
----Source side
-- Added PA Pocket detection back (yes, again lol)
-- Camera: boost cpu and devfreq when focusing
-- Added some buildprop tweaks (thanks to KuranKaname)
-- Removed Smart charging (I was told this should be kernel controlled - you can find a module for this here - thanks to @cukierkas for the tip)
-- SystemUI: Make qs edit repect header image
-- Pulse: Reworked backend
-- Added Battery bar
-- Added Death Star statusbar logo to the list (requested by @1perialf)
-- Stop USB Debugging authorization window dismissing on tap outside
-- Removed the 0 from the 12 hour format from the 'Digital (bold)' option
-- Updated translations
-- Some more things maybe I can't remember more :P
+---Device side 
+- Fixed Gcam Crash 
+- Fixed WhatsApp Green Tint Issue Of Front Camera On HAL3 
+- Fixed Gcam Lag 
+- Fixed Gcam Blinking While Tapping For Focus 
+- Enabled HAL3 By Default 
+- Enabled MDP Composition 
+- Enabled Sglscale
+- Dropped Wifi Display (Virtual display support was needed to fix wifi display properly, however it is broken and causing screen recording lag)
