@@ -1,12 +1,11 @@
-Changelogs For Derpfest Build OTA Update 14.06.2019 for Rolex:
+Changelogs For Derpfest Build OTA Update 20.06.2019 for Rolex:
 
 
----Device side 
-- Fixed Gcam Crash 
-- Fixed WhatsApp Green Tint Issue Of Front Camera On HAL3 
-- Fixed Gcam Lag 
-- Fixed Gcam Blinking While Tapping For Focus 
-- Enabled HAL3 By Default 
-- Enabled MDP Composition 
-- Enabled Sglscale
-- Dropped Wifi Display (Virtual display support was needed to fix wifi display properly, however it is broken and causing screen recording lag)
+---Device side
+ Upstream upto LA.UM.7.6.r1-05300-89xx.0
+ Add vendor prefix to camera props
+ Enable quota feature for ext4 userdata partition.
+ Update fstab flags for f2fs
+ Restart audio HIDL HAL after decryption
+ Fix device entry of update-sha1sums script
+ Update proprietary file
